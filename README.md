@@ -30,14 +30,15 @@ O script foi desenvolvido em **Python**, fazendo uso de bibliotecas robustas de 
 
 
 
-
 ## 📊 Resultados e Análise Gráfica
 
 ### 1. Sinais no Domínio do Tempo
 <p align="center">
   <img src="01_sinais_tempo.png" width="85%" alt="Sinais no Tempo">
 </p>
-> **Análise:** Compara a amplitude normalizada e o comportamento temporal bruto de uma gravação de voz humana real com a locução gerada por Inteligência Artificial (TTS).
+<p align="center">
+  <em><b>Análise:</b> Compara a amplitude normalizada e o comportamento temporal bruto de uma gravação de voz humana real com a locução gerada por Inteligência Artificial (TTS).</em>
+</p>
 
 ---
 
@@ -45,7 +46,9 @@ O script foi desenvolvido em **Python**, fazendo uso de bibliotecas robustas de 
 <p align="center">
   <img src="02_estacionariedade_wss.png" width="85%" alt="Estacionariedade WSS">
 </p>
-> **Análise:** Avaliação da variação da média e da variância local utilizando janelas curtas de $32\text{ ms}$ ($50\%$ de sobreposição), permitindo verificar o perfil de estacionariedade dos sinais.
+<p align="center">
+  <em><b>Análise:</b> Avaliação da variação da média e da variância local utilizando janelas curtas de $32\text{ ms}$ ($50\%$ de sobreposição), permitindo verificar o perfil de estacionariedade dos sinais.</em>
+</p>
 
 ---
 
@@ -53,7 +56,9 @@ O script foi desenvolvido em **Python**, fazendo uso de bibliotecas robustas de 
 <p align="center">
   <img src="03_autocorrelacao.png" width="85%" alt="Autocorrelação">
 </p>
-> **Análise:** Destaca a periodicidade e identifica o período fundamental (*pitch*, $T_0 \approx 7\text{ ms}$) na voz humana em contraste direto com o comportamento do sinal sintético.
+<p align="center">
+  <em><b>Análise:</b> Destaca a periodicidade e identifica o período fundamental (pitch, $T_0 \approx 7\text{ ms}$) na voz humana em contraste direto com o comportamento do sinal sintético.</em>
+</p>
 
 ---
 
@@ -61,4 +66,6 @@ O script foi desenvolvido em **Python**, fazendo uso de bibliotecas robustas de 
 <p align="center">
   <img src="04_psd_welch.png" width="85%" alt="PSD Welch">
 </p>
-> **Análise:** Mapeia a distribuição de energia no domínio da frequência utilizando o periodograma de Welch, evidenciando claramente os artefatos característicos de vocoders neurais.
+<p align="center">
+  <em><b>Análise:</b> Mapeia a distribuição de energia no domínio da frequência utilizando o periodograma de Welch, evidenciando claramente os artefatos característicos de vocoders neurais.</em>
+</p>
