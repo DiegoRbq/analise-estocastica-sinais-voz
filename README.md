@@ -1,6 +1,6 @@
 # Análise Estocástica e Espectral de Sinais de Voz: Humano vs. IA (TTS)
 
-Repositório desenvolvido para a disciplina de **Processos Estocásticos para Engenharia** (Engenharia de Telecomunicações - UFSJ / Campus Alto Paraopeba). O objetivo principal é investigar o comportamento estatístico e espectral de sinais de voz, comparando uma gravação humana real com uma locução gerada artificialmente por inteligência artificial (Text-to-Speech - TTS).
+Repositório desenvolvido para a disciplina de **Processos Estocásticos para Engenheiros** ( Curso Engenharia de Telecomunicações - UFSJ / Campus Alto Paraopeba). O objetivo principal é investigar o comportamento estatístico e espectral de sinais de voz, comparando uma gravação humana real com uma locução gerada artificialmente por inteligência artificial (Text-to-Speech - TTS).
 
 ---
 
