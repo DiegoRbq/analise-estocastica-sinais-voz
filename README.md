@@ -52,7 +52,7 @@ O script foi desenvolvido em **Python**, fazendo uso de bibliotecas robustas de 
 
 ---
 
-### 3. Função de Autocorrelação ($R_X(\tau)$)
+### 3. Função de Autocorrelação (RX)
 <p align="center">
   <img src="03_autocorrelacao.png" width="85%" alt="Autocorrelação">
 </p>
