@@ -31,20 +31,34 @@ O script foi desenvolvido em **Python**, fazendo uso de bibliotecas robustas de 
 
 
 
-## 📊 Resultados e Gráficos da Análise
+## 📊 Resultados e Análise Gráfica
 
+### 1. Sinais no Domínio do Tempo
 <p align="center">
-  <img src="01_sinais_tempo.png" width="48%" alt="Sinais no Tempo">
-  <img src="02_estacionariedade_wss.png" width="48%" alt="Estacionariedade WSS">
+  <img src="01_sinais_tempo.png" width="85%" alt="Sinais no Tempo">
 </p>
-<p align="center">
-  <em>Figura 1: Sinais no domínio do tempo (Real vs. IA) e Estudo da Estacionariedade (WSS) com janelas de 32 ms.</em>
-</p>
+> **Análise:** Compara a amplitude normalizada e o comportamento temporal bruto de uma gravação de voz humana real com a locução gerada por Inteligência Artificial (TTS).
 
+---
+
+### 2. Estudo da Estacionariedade (WSS)
 <p align="center">
-  <img src="03_autocorrelacao.png" width="48%" alt="Autocorrelação">
-  <img src="04_psd_welch.png" width="48%" alt="PSD Welch">
+  <img src="02_estacionariedade_wss.png" width="85%" alt="Estacionariedade WSS">
 </p>
+> **Análise:** Avaliação da variação da média e da variância local utilizando janelas curtas de $32\text{ ms}$ ($50\%$ de sobreposição), permitindo verificar o perfil de estacionariedade dos sinais.
+
+---
+
+### 3. Função de Autocorrelação ($R_X(\tau)$)
 <p align="center">
-  <em>Figura 2: Função de Autocorrelação (destacando o pitch fundamental) e Densidade Espectral de Potência (PSD via Método de Welch).</em>
+  <img src="03_autocorrelacao.png" width="85%" alt="Autocorrelação">
 </p>
+> **Análise:** Destaca a periodicidade e identifica o período fundamental (*pitch*, $T_0 \approx 7\text{ ms}$) na voz humana em contraste direto com o comportamento do sinal sintético.
+
+---
+
+### 4. Densidade Espectral de Potência (PSD - Método de Welch)
+<p align="center">
+  <img src="04_psd_welch.png" width="85%" alt="PSD Welch">
+</p>
+> **Análise:** Mapeia a distribuição de energia no domínio da frequência utilizando o periodograma de Welch, evidenciando claramente os artefatos característicos de vocoders neurais.
