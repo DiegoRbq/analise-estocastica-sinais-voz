@@ -33,3 +33,16 @@ O script foi desenvolvido em **Python**, fazendo uso de bibliotecas robustas de 
 1. Certifique-se de ter o Python instalado junto com as dependências necessárias:
    ```bash
    pip install numpy scipy librosa matplotlib imageio-ffmpeg
+
+
+
+   ## 📊 Resultados e Gráficos da Análise
+
+<p align="center">
+  <img src="01_sinais_tempo.png" width="48%" alt="Sinais no Tempo">
+  <img src="02_estacionariedade_wss.png" width="48%" alt="Estacionariedade WSS">
+</p>
+<p align="center">
+  <img src="03_autocorrelacao.png" width="48%" alt="Autocorrelação">
+  <img src="04_psd_welch.png" width="48%" alt="PSD Welch">
+</p>
