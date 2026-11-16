@@ -28,6 +28,9 @@ O script foi desenvolvido em **Python**, fazendo uso de bibliotecas robustas de 
 
 ---
 
+
+
+
 ## 📊 Resultados e Gráficos da Análise
 
 <p align="center">
@@ -35,6 +38,13 @@ O script foi desenvolvido em **Python**, fazendo uso de bibliotecas robustas de 
   <img src="02_estacionariedade_wss.png" width="48%" alt="Estacionariedade WSS">
 </p>
 <p align="center">
+  <em>Figura 1: Sinais no domínio do tempo (Real vs. IA) e Estudo da Estacionariedade (WSS) com janelas de 32 ms.</em>
+</p>
+
+<p align="center">
   <img src="03_autocorrelacao.png" width="48%" alt="Autocorrelação">
   <img src="04_psd_welch.png" width="48%" alt="PSD Welch">
+</p>
+<p align="center">
+  <em>Figura 2: Função de Autocorrelação (destacando o pitch fundamental) e Densidade Espectral de Potência (PSD via Método de Welch).</em>
 </p>
